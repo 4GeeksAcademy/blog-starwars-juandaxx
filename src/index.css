@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+}
+
+.scroll-row{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.card-starwars{
+    min-width: 18rem;
+}
+
+.card-starwars img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.scroll-row::-webkit-scrollbar{
+    height: 10px;
+}
+
+.scroll-row::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
